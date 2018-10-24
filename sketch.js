@@ -15,14 +15,6 @@ let sign = 1;
 function draw() {
 	background(0);
 
-	// lastEmmit++;
-	// if(lastEmmit > 5) {
-	// 	particles[Math.abs(width / 2) + Math.abs(height / 2) * height].vel = 0.5 * sign;
-	// 	lastEmmit = 0;
-	// 	sign *= -1;
-	// }
-
-
 	for (let i = 0; i < particles.length; i++) {
 		particles[i].update();
 	}
@@ -33,8 +25,6 @@ function draw() {
 }
 
 function getH() {
-	// return random(-HEIGHT_MAX, HEIGHT_MAX);
-	// return 5;
 	return 0;
 }
 
